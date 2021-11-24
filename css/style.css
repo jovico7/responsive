@@ -1,21 +1,46 @@
+/*REGLAS POR DEFECTO*/
+
 body {
-    background-color: lightgreen;
+    margin: 0;
 }
 
-p {
-    color: blue;
-    font-size: 7vw;
+* {
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+
+/*Clear floats after the columns*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Diseño de columnas*/
+
+.column-1 {
+    /*contenido*/
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-    p {
-        font-size: 40px;
-    }
+    /*  R E G L A S  */
 }
