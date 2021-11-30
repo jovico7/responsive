@@ -24,23 +24,35 @@ body {
     /*contenido*/
     width: 100%;
     float: left;
+    background-color: yellow;
 }
 
 .column-2 {
     width: 50%;
     float: left;
+    background-color: green;
 }
 
 .column-3 {
     width: 33.33%;
     float: left;
+    background-color: blue;
 }
 
 .column-4 {
     width: 25%;
     float: left;
+    background-color: red;
 }
 
 @media only screen and (max-width: 600px) {
     /*  R E G L A S  */
+    /*column-3 pasará de tener 33.33% a 100%*/
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
 }
