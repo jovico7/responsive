@@ -22,32 +22,92 @@ body {
 
 .column-1 {
     /*contenido*/
-    width: 100%;
+    width: 33.33%;
     float: left;
-    background-color: yellow;
 }
 
 .column-2 {
     width: 50%;
     float: left;
-    background-color: green;
 }
 
 .column-3 {
-    width: 33.33%;
+    width: 50%;
     float: left;
-    background-color: blue;
 }
 
 .column-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-5 {
     width: 25%;
     float: left;
+}
+
+#caja2 {
+    background-color: green;
+}
+
+#caja1 {
     background-color: red;
+}
+
+#caja3 {
+    background-color: purple;
+}
+
+#caja4 {
+    background-color: yellow;
+}
+
+#caja5 {
+    background-color: blue;
+}
+
+#caja6 {
+    background-color: skyblue;
+}
+
+#caja7 {
+    background-color: teal;
+}
+
+#caja8 {
+    background-color: white;
+}
+
+#caja9 {
+    background-color: deeppink;
+}
+
+#caja10 {
+    background-color: grey;
+}
+
+#caja12 {
+    background-color: red;
+}
+
+#caja13 {
+    background-color: blue;
+}
+
+#caja14 {
+    background-color: royalblue;
+}
+
+#caja15 {
+    background: green;
 }
 
 @media only screen and (max-width: 600px) {
     /*  R E G L A S  */
     /*column-3 pasará de tener 33.33% a 100%*/
+    .column-1 {
+        width: 100%;
+    }
     .column-3 {
         width: 100%;
     }
